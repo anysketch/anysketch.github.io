@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>About</title>
+  <link rel="icon" type="image/png" href="pics/favicon.PNG" sizes="20x20">    
 </head>
-<body>
-
+<body> 
 <div class="topnav" id="myTopnav">
   <a href="index.html">
-    <img id="logo" alt="Logo" src="pics/favicon.PNG"/>
+    <img id="logo" src="pics/favicon.PNG"/>
   </a>
   <div class="menu">
     <div class="options">
-  <div class="dropdown" >
-    <a class="active" onclick="location.href='index.html'" id="a">ABOUT</a>
+  <div class="dropdown" onmouseover="hovering(a)" onmouseout="notHovering(a)">
+    <a class="dropbtn" onclick="location.href='index.html'" id="a">ABOUT</a>
   </div>
   <div class="dropdown" onmouseover="hovering(s)" onmouseout="notHovering(s)">
     <a class="dropbtn" id="s">SCHOOL</a>
@@ -29,26 +31,36 @@
       <a href="work.html">Work</a>
     </div>
   </div>
-  <div class="dropdown" onmouseover="hovering(c)" onmouseout="notHovering(c)" onclick="location.href='contact.html'">
-    <a class="dropbtn" id="c">CONTACT</a>
+  <div class="dropdown" onclick="location.href='contact.html'">
+    <a class="active" id="c">CONTACT</a>
   </div>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
   </div>
 </div>
   
-  <div class="page">
-    <div class="container">
-      <div id="left">
-        <h1>HELLO!</h1>
-        <h2>I AM GRACE LANE.</h2>
-        <p id="divider">....................................................................</p>
-        <p>I am a Seattle University Undergraduate studying Computer Science with a Specialization in Business.</p>
-        <p>I am looking to branch out and explore specific fields that could eventually lead to a full-time career. I enjoy new challenges to learn and grow both professionally and as an individual.</p>
+
+  <div class="content">
+    <div class="contact">
+      <div class="text">
+        <h1>Contact Me</h1>
+        <p>Hello! I would love to hear from you. Please fill out the form below and I will get back to you as soon as possible.</p>
       </div>
-      <div id="right">
-        <img id="self" alt="Grace posing for the camera" src = "pics/me.PNG"/>
-      </div>
+      <form method="POST" action="submit.html">
+        <label for="name">Full Name</label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="First Last">
+        <br>
+        <label for="email">Email Address</label>
+        <br>
+        <input type="text" id="email" name="email" placeholder="email@example.com">
+        <br>
+        <label for="message">Message</label>
+        <br>
+        <textarea type="text" id="message" name="message" placeholder="Type here"></textarea>
+        <br>
+        <input type="submit" id="submit" name="submit" value="Submit"/>
+      </form> 
     </div>
     <footer>
       <a>Find me on Linkedin: 
@@ -60,7 +72,8 @@
       </a>
     </footer>
   </div>
-
+  
+  
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -81,6 +94,6 @@ function notHovering(x) {
   x.style.textDecoration = "none";
 }
 </script>
-
+  
 </body>
 </html>
