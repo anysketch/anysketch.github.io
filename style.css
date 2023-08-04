@@ -27,10 +27,36 @@ body {
   padding: 10px;
   width: 50vw;
   height: 50vh;
-  background-color: aliceblue;
+/*  background-color: aliceblue;*/
   border-radius: 1em;
+/*  border: 1px solid;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+/*  z-index: 1;*/
+  top: 0;
+  overflow-x: hidden;
+}
+
+.lefttxt {
+  background-color: white; 
+  left: 0;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.rightpic {
+  background-color: aqua; 
+  right: 0;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+
 
 
 
