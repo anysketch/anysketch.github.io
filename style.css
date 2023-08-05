@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .container {
@@ -25,7 +26,7 @@ body {
   left: 50vw;
   transform: translate(-50%, -50%);
 /*  padding: 10px;*/
-  width: 50vw;
+  width: 60vw;
   height: 50vh;
 /*  background-color: aliceblue;*/
   border-radius: 1em;
@@ -69,7 +70,6 @@ body {
   font-size: 2vh; padding: 3vh 0px 0 10px; margin: 0;
 }
 
-
 .rightpic {
   background-color: aqua; 
   right: 0;
@@ -79,8 +79,8 @@ body {
 }
 
 .self {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 767px) {
@@ -93,28 +93,26 @@ body {
     border-bottom-right-radius: 0em;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 0em;
-    
   }
   
   .lefttxt h1{
-    font-size: 5vh; padding: 2vh 0px 0 2vh; margin: 0;
+    font-size: 4vh; padding: 2vh 0px 0 2vh; margin: 0;
   }
   
   .lefttxt h2{
-    font-size: 6vh; padding: 1vh 0px 0 2vh; margin: 0;
+    font-size: 5vh; padding: 1vh 0px 0 2vh; margin: 0;
   }
-  
-  
+    
   .lefttxt #divider {
-    font-size: 5vh; padding: 0px 0px 0 2vh; margin: -3vh 0 0 0;
+    font-size: 3vh; padding: 1vh 1vh 0 2vh; margin: -3vh 0 0 0;
   }
   
   .lefttxt #pp1 {
-    font-size: 2vh; padding: 0px 0px 0 2vh; margin: 0;
+    font-size: 2vh; padding: 0px 1vh 0 2vh; margin: 0;
   }
 
   .lefttxt #pp2 {
-    font-size: 2vh; padding: 1vh 0px 0 2vh; margin: 0;
+    font-size: 2vh; padding: 1vh 2vh 0 2vh; margin: 0;
   }
   
   .rightpic {
