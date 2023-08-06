@@ -30,23 +30,25 @@ body {
   border-radius: 1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #ffffff;
+  overflow: hidden;
 }
 
 .split {
-  height: 100%;
-/*  width: 50%;*/
-  width: 50%;
   position: fixed;
-/*  z-index: 1;*/
-  top: 0;
   overflow: hidden;
 }
 
 .lefttxt {
-  background-color: white; 
+  position: fixed;
+  height: 100%;
+  width: 50%;
+/*  background-color: white; */
+/*  border: 1px solid;*/
   left: 0;
+/*
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
+*/
 }
 
 h1{
@@ -80,10 +82,12 @@ h2 {
 }
 
 .rightpic {
-/*  background-color: aqua; */
+  background-color: aqua; 
   right: 0;
+/*
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
+*/
   height: 100%;
   width: 50%;
 }
@@ -95,16 +99,13 @@ h2 {
 
 @media (max-width: 500px) {
   .lefttxt {
+    top: 0;
     position: relative;
-/*    background-color: aqua;*/
+    background-color: #fff; 
     width: 100%; 
-    height: 32%;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 0em;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 0em;
+    height: 30%;
   }
-  
+
   .lefttxt h1{
     font-size: 4vh; padding: 0; margin: 2vh 0px 0 2vh;
   }
@@ -127,22 +128,17 @@ h2 {
   }
 
   .rightpic {
-    overflow: hidden;
+    top: 0;
     position: relative;
-    background-color: blue; 
+    background-color: #fff; 
     width: 100%; 
-    height: 68%;
-    
-    border-top-right-radius: 0em;
-    border-bottom-right-radius: 1em;
-    border-top-left-radius: 0em;
-    border-bottom-left-radius: 1em;
+    height: 70%;
   }
   
   .self {
     margin: 5%;
-    width: 90%;
-    height: auto;
+    height: 100%;
+    width: auto;
     overflow: visible;
   }
 }
