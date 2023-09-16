@@ -97,6 +97,25 @@ h2 {
   height: auto;
 }
 
+.row {
+  float: left;
+  width: 100%;
+  margin: .5vw 0 0 0;
+}
+
+.icon {
+  float: left;
+  width: 10%;
+  margin: 0vw .5vw 0 2vw;
+}
+
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+
 @media (max-width: 500px) {
   .lefttxt {
     top: 0;
