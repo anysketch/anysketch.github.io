@@ -8,6 +8,8 @@ body {
 .container {
   background-color: black; 
   width: 100%;
+  height: auto;
+  float: left;
 }
 
 .top {
@@ -15,8 +17,12 @@ body {
   width: 100%; 
   height: 60vh;
   text-align: center;
+  float: left;
 }
 
+
+
+/* MENU */
 .menu {
   position: absolute;
   top: 7vh;
@@ -29,6 +35,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #ffffff;
   overflow: hidden;
+  float: left;
 }
 
 #active {
@@ -74,14 +81,30 @@ body {
 /*  letter-spacing: 0;*/
   color: #aaaaaa;
 }
+/* MENU */
 
+
+
+
+
+
+/* BOTTOM OF TOP HALF */
 .bottom {
-  background-color: white; 
-  width:100%; 
+  background-color: #ffffff; 
+  width: 100%; 
   height: 40vh;
+  float: left;
 }
+/* BOTTOM OF TOP HALF */
 
+
+
+
+
+
+/* CENTER RECTANGLE */
 .centerrect {
+  float: left;
   position: absolute;
   top: 50vh;
   left: 50vw;
@@ -136,9 +159,11 @@ body {
 */
   height: 100%;
   width: 50%;
+  float: left;
 }
 
 .self {
+  float: left;
   margin: 20px 0px 0 0;
   height: 100%;
   width: auto;
@@ -174,18 +199,83 @@ body {
   margin: 0vh 0 0 0;
   font-size: 3vh;
 }
+/* CENTER RECTANGLE */
+
+
+
+
+
+
+
+/* HOME PAGE BODY CONTENT */
+.content {
+  background-color: aqua;
+  height: 700px;
+  width: 100%;
+  float: left;
+}
+
+.content p {
+  color: black;
+  font-size: 25px;
+  
+}
+
+.content .centerrect {
+  float: left;
+  position: relative;
+  top: 0vh;
+  left: 15vw;
+/*  left: 50vw;*/
+/*  transform: translate(0%, 0%);*/
+  transform: none;
+  width: 70vw;
+  height: 70vh;
+/*  border-radius: 1em;*/
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #ddd;
+  overflow: hidden;
+}
 
 /*
-p {
-  font: inherit;
-  color: inherit;
-  text-decoration: none;
-  font-size: .8vh;
+.content .split {
+  position: fixed;
+  overflow: hidden;
 }
 */
 
+.content .lefttxt {
+/*  background: pink;*/
+  position: fixed;
+  height: 100%;
+  width: 50%;
+  left: 0;
+}
 
-/* blogLanding */
+.content .rightpic {
+/*  background-color: blue; */
+  right: 0;
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+/* HOME PAGE BODY CONTENT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* blogLanding page */
 .blogLanding .top {
   background-image: linear-gradient(to bottom right, #82b7d0, #9bc9df, #cce7f4, #e3f3fb); 
   width: 100%; 
@@ -294,6 +384,16 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+/* PHONE */
 @media (max-width: 800px) {
   .container {
     background-color: black; 
@@ -556,3 +656,4 @@ p {
   }
   /* blogEntry */
 }
+/* PHONE SIZE */
