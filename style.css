@@ -29,23 +29,11 @@ body {
   width: 70vw;
   line-height: 50px;
   border-radius: 1em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #ffffff;
   overflow: hidden;
   float: left;
   display: block;
-}
-
-.threeLines {
-  display: none;
-  color: black;
-  text-decoration: none;
-  font-size: 30px;
-  margin: 5vh 0px 0 70vw;
-}
-
-.closebtn {
-  display: none;
 }
 
 #active {
@@ -344,7 +332,7 @@ body {
 
 .blogEntry .centerrect {
   position: absolute;
-  top: 50vh;
+  top: 51vh;
   left: 50vw;
   transform: translate(-50%, -50%);
   width: 70vw;
@@ -398,7 +386,7 @@ body {
     width: 90vw;
     line-height: 5vh;
     border-radius: 1em;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ffffff;
     overflow: hidden;
     display: block;
@@ -544,8 +532,8 @@ body {
   }
   
   .content {
-  /*  background-color: aqua;*/
-    height: 700px;
+/*    background-color: aqua;*/
+    height: auto;
     width: 100%;
     float: left;
   }
@@ -679,14 +667,14 @@ body {
 
   .blogEntry .centerrect {
     position: absolute;
-    top: 50vh;
+    top: 52vh;
     left: 50vw;
     transform: translate(-50%, -50%);
-    width: 70vw;
-    height: 70vh;
+    width: 80vw;
+    height: auto;
     border-radius: 0;
     box-shadow: none;
-    background-color: #fff;
+    background-color: none;
     overflow: hidden;
   }
 
