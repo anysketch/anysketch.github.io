@@ -463,20 +463,20 @@ body {
     position: relative;
     background-color: #fff; 
     width: 100%; 
-    height: 30%;
+    height: auto;
   }
 
   .lefttxt h1{
-    font-size: 4vh; padding: 0; margin: 2vh 0px 0 2vh;
+    font-size: 4vh; padding: 0; margin: 2vh 0px 0 3vw;
   }
   
   .lefttxt h2{
-    font-size: 5vh; padding: 0; margin: 1vh 0px 0 2vh;
+    font-size: 5vh; padding: 0; margin: 1vh 0px 0 3vw;
   }
   
   .lefttxt #divider {
     padding: 0;
-    margin: 1vh 2vh 0 2vh;
+    margin: 1vh 2vw 0 3vw;
   }
 
   .rightpic {
@@ -484,7 +484,7 @@ body {
     position: relative;
     background-color: #fff; 
     width: 100%; 
-    height: 70%;
+    height: auto;
   }
   
   .self {
@@ -502,15 +502,93 @@ body {
 
   .icon {
     float: left;
-    width: 10%;
-    margin: 0vw .5vw 0 2vw;
+    height: 3.5vh;
+    width: auto;
+    margin: 0vw 1vw 0 3vw;
   }
 
-  a {
+  .row a {
+    float: left;
     font: inherit;
     color: inherit;
     text-decoration: none;
+    margin: 0vh 0 0 0vw;
+    font-size: 3vh;
   }
+
+  .row p {
+    float: left;
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+    margin: 0vh 0 0 2vw;
+    font-size: 3vh;
+  }
+  
+  
+  
+  .content {
+  /*  background-color: aqua;*/
+    height: 700px;
+    width: 100%;
+    float: left;
+  }
+
+  .content p {
+    color: black;
+    font-size: 25px;
+
+  }
+
+  .content .centerrect {
+    float: left;
+    position: relative;
+    top: 0vh;
+    left: 15vw;
+  /*  left: 50vw;*/
+    transform: translate(0%, 0%);
+  /*  transform: none;*/
+    width: 70vw;
+    height: 70vh;
+  /*  border-radius: 1em;*/
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #ddd;
+    overflow: hidden;
+  }
+
+  /*
+  .content .split {
+    position: fixed;
+    overflow: hidden;
+  }
+  */
+
+  .content .lefttxt {
+  /*  background: pink;*/
+    position: fixed;
+    height: auto;
+    width: 100%;
+    left: 0;
+  }
+
+  .content .rightpic {
+  /*  background-color: blue; */
+    right: 0;
+    height: auto;
+    width: 100%;
+    float: left;
+  }
+
+  .content p {
+    margin: 0px 10px 30px 0px;
+    font-size: 25px;
+    color: black;
+  }
+
+  
+  
+  
 
   /* blogLanding */
   .blogLanding .top {
