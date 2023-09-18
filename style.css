@@ -103,7 +103,9 @@ body {
 .centerrect h1{
   font-family: Arial Narrow, sans-serif;
   color: #909090;
-  font-size: 3vh; padding: 0; margin: 25px 20px 0 30px;
+  font-size: 5vh; 
+  padding: 0; 
+  margin: 25px 20px 0 30px;
 }
 
 .centerrect h2 {
@@ -134,22 +136,18 @@ body {
 }
 
 .rightpic {
-/*  background-color: aqua; */
   right: 0;
-/*
-  border-top-right-radius: 1em;
-  border-bottom-right-radius: 1em;
-*/
   height: 100%;
   width: 50%;
   float: left;
+  padding: 20px 20px 0 0;
 }
 
 .self {
   float: left;
   margin: 20px 0px 0 0;
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 
 .row {
