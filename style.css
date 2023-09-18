@@ -391,7 +391,7 @@ body {
     transform: translate(-50%, 0%);
     background-color: #efe;
     width: 70vw;
-    line-height: 50px;
+    line-height: 5vh;
     border-radius: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ffffff;
@@ -407,8 +407,8 @@ body {
   /*  display: block;*/
     position: relative;
     cursor: pointer;
-    padding: 5px 5px;
-    margin: 0 5px;
+    padding: 5px 3px;
+    margin: 0 3px;
     text-decoration: none;
     color: #000000;
     font-size: 2vh;
