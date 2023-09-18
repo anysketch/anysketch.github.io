@@ -19,7 +19,7 @@ body {
 
 .menu {
   position: absolute;
-  top: 6vh;
+  top: 7vh;
   left: 50vw;
   transform: translate(-50%, 0%);
   background-color: #efe;
@@ -85,7 +85,7 @@ body {
   position: absolute;
   top: 50vh;
   left: 50vw;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -45%);
   width: 70vw;
   height: 70vh;
   border-radius: 1em;
@@ -138,8 +138,9 @@ body {
 }
 
 .self {
-  width: 100%;
-  height: auto;
+  margin: 20px 0px 0 0;
+  height: 100%;
+  width: auto;
 }
 
 .row {
