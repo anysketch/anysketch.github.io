@@ -637,7 +637,7 @@ body {
   
   .blogLanding #entry:hover {
     float: left;
-    margin: 1vh 0vw 0vh 2vw;
+    margin: 1vh 0vw 0vh 0vw;
     color: darkgray;
     font-family: sans-serif;
     font-size: 19px;
