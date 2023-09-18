@@ -662,7 +662,7 @@ body {
 
   .blogEntry .centerrect {
     position: absolute;
-    top: 50vh;
+    top: 48vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 80vw;
