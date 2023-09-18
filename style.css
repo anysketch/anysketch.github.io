@@ -431,12 +431,13 @@ body {
   .bottom {
     background-color: white; 
     width:100%; 
-    height: 40vh;
+    height: 55vh;
+    float: left;
   }
 
   .centerrect {
     position: absolute;
-    top: 50vh;
+    top: 45vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 90vw;
@@ -445,6 +446,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ffffff;
     overflow: hidden;
+    float: left;
   }
 
   .split {
@@ -458,7 +460,8 @@ body {
     background-color: #fff; 
     width: 100%; 
     height: auto;
-/*    float: left;*/
+    margin: 0;
+    float: left;
   }
 
   .lefttxt h1{
@@ -480,12 +483,14 @@ body {
     background-color: #fff; 
     width: 100%; 
     height: auto;
-    display: none;
+    margin: 0;
+/*    display: none;*/
+    float: left;
   }
   
   .self {
     height: auto;
-    width: 0%;
+    width: 100%;
     overflow: visible;
   }
 
