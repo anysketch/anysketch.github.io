@@ -335,27 +335,28 @@ body {
 
 .blogEntry .centerrect {
   position: absolute;
-  top: 51vh;
+  top: 17vh;
   left: 50vw;
-  transform: translate(-50%, -50%);
-  width: 70vw;
-  height: 70vh;
+  transform: translate(-50%, 0%);
+  width: 66vw;
+  height: auto;
   border-radius: 0;
   box-shadow: none;
-  background-color: #fff;
+  background-color: #ddd;
+  background: rgba(255, 255, 255, 0);
   overflow: hidden;
 }
 
 .blogEntry p {
-  margin: 2vh 0 0 2vw;
-  font-size: 1.5vw;
+  margin: 0 0 0vh 0;
+  font-size: 3vh;
 }
 
 .blogEntry h1 {
-  margin: 2vh 0 0 2vw;
+  margin: 0 0 2vh 0;
   color: black;
   font-family: sans-serif;
-  font-size: 5vw;
+  font-size: 7vh;
 }
 /* blogEntry */
 
@@ -724,27 +725,28 @@ body {
 
   .blogEntry .centerrect {
     position: absolute;
-    top: 51vh;
+    top: 16vh;
     left: 50vw;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     width: 70vw;
-    height: 70vh;
+    height: auto;
     border-radius: 0;
     box-shadow: none;
     background-color: #fff;
+    background: rgba(255, 255, 255, 0);
     overflow: hidden;
   }
 
   .blogEntry p {
     margin: 2vh 0 0 2vw;
-    font-size: 1.5vw;
+    font-size: 2.5vh;
   }
 
   .blogEntry h1 {
     margin: 2vh 0 0 2vw;
     color: black;
     font-family: sans-serif;
-    font-size: 5vw;
+    font-size: 6vh;
   }
   /* blogEntry */
 
@@ -1099,11 +1101,10 @@ body {
 
   .blogEntry .centerrect {
     position: absolute;
-    margin: 20vh 0 0 0;
-    top: 0vh;
+    top: 15vh;
     left: 50vw;
-    transform: translate(-50%, -10%);
-    width: 80vw;
+    transform: translate(-50%, 0%);
+    width: 66vw;
     height: auto;
     border-radius: 0;
     box-shadow: none;
@@ -1111,26 +1112,25 @@ body {
     overflow: hidden;
     background: rgba(255, 255, 255, 0);
     float: left;
+    padding: 0;
+    margin: 0;
   }
   
   .blogEntry .content {
-    opacity: 1;
     color: black;
-/*      background: rgba(76, 175, 80, 0.6);*/
   }
 
   .blogEntry p {
-    opacity: 100%;
     color: black;
-    margin: 2vh 0 0 2vw;
-    font-size: 4vw;
+    margin: 0 0 0vh 0;
+    font-size: 2.5vh;
   }
 
   .blogEntry h1 {
-    margin: 2vh 0 0 2vw;
+    margin: 0 0 1vh 0;
     color: black;
     font-family: sans-serif;
-    font-size: 7vw;
+    font-size: 5.7vh;
   }
   /* blogEntry */
 
@@ -1413,6 +1413,7 @@ body {
     background-color: #fff;
     background: rgba(255, 255, 255, 0);
     overflow: hidden;
+/*    text-align: center;*/
   }
 
   .blogLanding .lefttxt {
@@ -1424,14 +1425,16 @@ body {
     margin: 0;
     float: left;
     background: rgba(255, 255, 255, 0);
+    padding: 0;
   }
-
+  
+  /* entry date on landing page */
   .blogLanding #entry {
     float: left;
     margin: 1vh 0vw 0vh 0vw;
     color: black;
     font-family: sans-serif;
-    font-size: 5.5vh;
+    font-size: 5vh;
     background: rgba(255, 255, 255, 0);
     padding: 0;
   }
@@ -1445,7 +1448,7 @@ body {
     margin: 1vh 0vw 0vh 0vw;
     color: darkgray;
     font-family: sans-serif;
-    font-size: 5.5vh;
+    font-size: 5vh;
 /*    display: none;*/
   }
 
@@ -1474,9 +1477,9 @@ body {
 
   .blogEntry .centerrect {
     position: absolute;
-    top: 50vh;
+    top: 17vh;
     left: 50vw;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     width: 80vw;
     height: auto;
     border-radius: 0;
@@ -1484,26 +1487,26 @@ body {
     background-color: #ddd;
     overflow: hidden;
     background: rgba(255, 255, 255, 0);
+    margin: 0;
+    padding: 0;
   }
   
   .blogEntry .content {
-    opacity: 1;
     color: black;
-/*      background: rgba(76, 175, 80, 0.6);*/
   }
 
   .blogEntry p {
     opacity: 100%;
     color: black;
-    margin: 2vh 0 0 2vw;
-    font-size: 4vw;
+    margin: 0vh 0 0 0vw;
+    font-size: 3.5vw;
   }
 
   .blogEntry h1 {
-    margin: 2vh 0 0 2vw;
+    margin: 0vh 0 2vh 0vw;
     color: black;
     font-family: sans-serif;
-    font-size: 7vw;
+    font-size: 6vw;
   }
   /* blogEntry */
 
