@@ -647,12 +647,13 @@ body {
     position: absolute;
     top: 50vh;
     left: 50vw;
-    transform: translate(-50%, -45%);
+    transform: translate(-50%, -50%);
     width: 60vw;
     height: 70vh;
     border-radius: 0;
     box-shadow: none;
-    background-color: #faf;
+    background-color: #ddd;
+    background: rgba(255, 255, 255, 0);
     overflow: hidden;
   }
 
@@ -661,6 +662,7 @@ body {
     height: 100%;
     width: 50%;
     left: 0;
+    background: rgba(255, 255, 255, 0);
   }
 
   .blogLanding #entry {
@@ -1025,20 +1027,23 @@ body {
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
-    width: 82vw;
+    width: 60vw;
     height: 70vh;
     border-radius: 0;
     box-shadow: none;
     background-color: #ddd;
+    background: rgba(255, 255, 255, 0);
     overflow: hidden;
   }
 
   .blogLanding .lefttxt {
     position: fixed;
-    height: 100%;
+    height: auto;
     width: 50%;
     left: 0;
 /*    background-color: aliceblue;*/
+    margin: 0;
+    padding: 0;
   }
 
   .blogLanding #entry {
@@ -1065,7 +1070,7 @@ body {
   .blogLanding .righttxt {
 /*    background-color: #ffa; */
     right: 0;
-    height: 100%;
+    height: 6%;
     width: 50%;
     border-left-color: black;
     border-left-style: solid;
@@ -1160,7 +1165,7 @@ body {
 
 
 
-@media (max-width: 635px) {
+@media (max-width: 650px) {
   .container {
     background-color: white; 
     width: 100%;
@@ -1234,7 +1239,7 @@ body {
 
   .centerrect {
     position: absolute;
-    top: 48vh;
+    top: 45vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 90vw;
@@ -1317,7 +1322,7 @@ body {
     font: inherit;
     color: inherit;
     text-decoration: none;
-    margin: 0vh 0 3vh 0vw;
+    margin: 0vh 0 2vh 0vw;
     font-size: 3vh;
   }
   
@@ -1336,7 +1341,7 @@ body {
   .content .centerrect {
     float: left;
     position: relative;
-    top: -5vh;
+    top: -8vh;
     left: 7vw;
     transform: translate(0%, 0%);
     width: 86vw;
@@ -1405,18 +1410,20 @@ body {
     height: 70vh;
     border-radius: 0;
     box-shadow: none;
-/*    background-color: #faf;*/
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0);
     overflow: hidden;
   }
 
   .blogLanding .lefttxt {
     top: 0;
     position: relative;
-    background-color: #aaa; 
+    background-color: #fff; 
     width: 100%; 
     height: auto;
     margin: 0;
     float: left;
+    background: rgba(255, 255, 255, 0);
   }
 
   .blogLanding #entry {
@@ -1424,7 +1431,9 @@ body {
     margin: 1vh 0vw 0vh 0vw;
     color: black;
     font-family: sans-serif;
-    font-size: 19px;
+    font-size: 5.5vh;
+    background: rgba(255, 255, 255, 0);
+    padding: 0;
   }
 
   #entry:hover::before {
@@ -1436,19 +1445,20 @@ body {
     margin: 1vh 0vw 0vh 0vw;
     color: darkgray;
     font-family: sans-serif;
-    font-size: 19px;
+    font-size: 5.5vh;
 /*    display: none;*/
   }
 
   .blogLanding .righttxt {
-/*    background-color: #ffa; */
+    background-color: #fff; 
     right: 0;
     height: auto;
     width: 100%;
     border-left-color: black;
     border-left-style: none;
     border-left-width: .5px;
-    float: left;    
+    float: left;
+    background: rgba(255, 255, 255, 0);
   }
   /* blogLanding */
 
