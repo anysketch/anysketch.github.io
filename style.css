@@ -636,7 +636,7 @@ body {
 
   .blogLanding .centerrect {
     position: absolute;
-    top: 51vh;
+    top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 82vw;
@@ -1014,7 +1014,7 @@ body {
 
   .blogLanding .centerrect {
     position: absolute;
-    top: 51vh;
+    top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 82vw;
