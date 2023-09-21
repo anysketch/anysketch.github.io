@@ -111,7 +111,7 @@ body {
 
 .centerrect h2 {
   color: #000000;
-  font-size: 9vh; padding: 0; margin: 0 0px 0 30px;
+  font-size: 8vh; padding: 0; margin: 0 0px 0 30px;
 }
 
 .split {
@@ -491,14 +491,14 @@ body {
   .centerrect h1{
     font-family: Arial Narrow, sans-serif;
     color: #909090;
-    font-size: 4.5vh; 
+    font-size: 4vh; 
     padding: 0; 
     margin: 20px 20px 0 20px;
   }
 
   .centerrect h2 {
     color: #000000;
-    font-size: 5.5vh; 
+    font-size: 5vh; 
     padding: 0; 
     margin: 0 0px 0 20px;
   }
@@ -873,7 +873,7 @@ body {
   }
   
   .lefttxt h2{
-    font-size: 8vh; padding: 0; margin: 1vh 0px 0 3vw;
+    font-size: 7vh; padding: 0; margin: 1vh 0px 0 3vw;
   }
   
   .lefttxt #divider {
