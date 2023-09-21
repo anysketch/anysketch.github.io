@@ -262,7 +262,7 @@ body {
   height: 70vh;
   border-radius: 0;
   box-shadow: none;
-/*  background-color: #faf;*/
+  background-color: #faf;
   overflow: hidden;
 }
 
@@ -364,7 +364,38 @@ body {
 
 
 
-@media (max-width: 970px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
   .container {
     background-color: black; 
     width: 100%;
@@ -431,13 +462,13 @@ body {
   .bottom {
     background-color: white; 
     width:100%; 
-    height: 93vh;
+    height: 40vh;
     float: left;
   }
 
   .centerrect {
     position: absolute;
-    top: 82vh;
+    top: 45vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 90vw;
@@ -484,7 +515,7 @@ body {
     width: 100%; 
     height: auto;
     margin: 0;
-/*    display: none;*/
+    display: none;
     float: left;
   }
   
@@ -492,6 +523,7 @@ body {
     height: auto;
     width: 100%;
     overflow: visible;
+    float: left;
   }
 
   .row {
@@ -611,7 +643,7 @@ body {
     height: 70vh;
     border-radius: 0;
     box-shadow: none;
-/*    background-color: #faf;*/
+    background-color: #ddd;
     overflow: hidden;
   }
 
@@ -656,8 +688,17 @@ body {
   /* blogLanding */
 
 
+  
+  
+  
+  
   /* blogEntry */
   .blogEntry .top {
+    background-image: linear-gradient(to bottom right, #82b7d0, #9bc9df, #cce7f4, #e3f3fb); 
+    width: 100%; 
+    height: 50vh;
+    text-align: center;
+    float: left;
     height: 0;
   }
 
@@ -667,7 +708,8 @@ body {
 
   .blogEntry .centerrect {
     position: absolute;
-    top: 48vh;
+    margin: 20vh 0 0 0;
+    top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 80vw;
@@ -677,6 +719,7 @@ body {
     background-color: #ddd;
     overflow: hidden;
     background: rgba(255, 255, 255, 0);
+    float: left;
   }
   
   .blogEntry .content {
@@ -725,6 +768,12 @@ body {
 
 
 
+
+
+
+
+
+
 @media (max-width: 400px) {
   .container {
     background-color: black; 
@@ -740,7 +789,7 @@ body {
 
   .menu {
     position: absolute;
-    top: 6vh;
+    top: 5vh;
     left: 50vw;
     transform: translate(-50%, 0%);
 /*    background-color: #efe;*/
@@ -977,11 +1026,13 @@ body {
   }
 
   .blogLanding .lefttxt {
-    position: fixed;
-    height: 100%;
-    width: 50%;
-    left: 0;
-/*    background-color: aliceblue;*/
+    top: 0;
+    position: relative;
+    background-color: #aaa; 
+    width: 100%; 
+    height: auto;
+    margin: 0;
+    float: left;
   }
 
   .blogLanding #entry {
@@ -1008,11 +1059,12 @@ body {
   .blogLanding .righttxt {
 /*    background-color: #ffa; */
     right: 0;
-    height: 100%;
-    width: 50%;
+    height: auto;
+    width: 100%;
     border-left-color: black;
-    border-left-style: solid;
+    border-left-style: none;
     border-left-width: .5px;
+    float: left;    
   }
   /* blogLanding */
 
@@ -1028,7 +1080,7 @@ body {
 
   .blogEntry .centerrect {
     position: absolute;
-    top: 48vh;
+    top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 80vw;
