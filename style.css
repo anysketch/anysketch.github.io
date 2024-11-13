@@ -5,3 +5,52 @@ body {
   color: black;
 }
 
+/* nav bar */
+.menu {      /* navigation bar */
+	position: absolute;
+	top: 4vw;
+	left: 15vw;
+	width: 70vw;
+	line-height: 3vw;
+	border-radius: 15px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #fff;
+	overflow: hidden;
+	float: left;
+	display: block;
+}
+
+#active {  /* bolds the active page */
+	font-weight: bold;
+}
+
+.menu a {    /* navigation items */
+	position: relative;
+	cursor: pointer;
+	padding: 0vh .5vw .3vh .1vw;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.5vw;
+}
+
+.menu a::before {       /* line under navigation item */
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: .1vw;
+	background-color: #aaaaaa;
+	transition: .5s;
+	font-weight: bold;
+}
+
+.menu a:hover::before {   /* line under naviagation item when hover item */
+	width: 100%;
+}
+
+.menu a:hover {        /* when you hover item */
+	color: #aaaaaa;
+}
+/* nav bar */
